@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "componentId": "single-line-text",
+      "fieldId": "id",
+      "modelId": "test-model",
+      "name": "ID",
+      "options": {
+        "title-field": {
+          "value": true
+        }
+      },
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": true,
+    "type": "JSON",
+    "name": "test model",
+    "modelId": "test-model",
+    "createdBy": "community"
+  },
+  "categories": [
+    "Website",
+    "Event",
+    "Ecommerce"
+  ]
+}
