@@ -1,0 +1,42 @@
+{
+  "fields": [
+    {
+      "componentId": "slug",
+      "fieldId": "slug",
+      "modelId": "fix2",
+      "name": "slug",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "md-editor",
+      "fieldId": "content",
+      "modelId": "fix2",
+      "name": "content",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": true,
+    "type": "MD",
+    "name": "fix2",
+    "modelId": "fix2",
+    "createdBy": "community"
+  },
+  "name": "teeeeee",
+  "categories": [
+    "Generic"
+  ],
+  "description": "qwe"
+}
