@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "componentId": "single-line-text",
+      "fieldId": "feyzan",
+      "modelId": "feyzan",
+      "name": "feyzan",
+      "options": {},
+      "validations": {},
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": false,
+    "type": "JSON",
+    "name": "feyzan",
+    "modelId": "feyzan",
+    "createdBy": "community"
+  },
+  "name": "my model name",
+  "categories": [
+    "Informational"
+  ],
+  "description": "my model description"
+}

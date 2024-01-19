@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "componentId": "single-line-text",
+      "fieldId": "field",
+      "modelId": "model",
+      "name": "field",
+      "options": {},
+      "validations": {},
+      "fieldType": "string"
+    }
+  ],
+  "model": {
+    "localization": false,
+    "type": "JSON",
+    "name": "model",
+    "modelId": "model",
+    "createdBy": "community"
+  },
+  "name": "feyzan",
+  "categories": [
+    "Event"
+  ],
+  "description": "test"
+}

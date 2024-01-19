@@ -1,0 +1,15 @@
+{
+  "fields": [],
+  "model": {
+    "localization": false,
+    "type": "JSON",
+    "name": "feyzan2",
+    "modelId": "feyzan2",
+    "createdBy": "community"
+  },
+  "name": "feyzan2new",
+  "categories": [
+    "Informational"
+  ],
+  "description": "www"
+}
