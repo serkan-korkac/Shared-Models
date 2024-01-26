@@ -1,0 +1,18 @@
+{
+  "fields": [],
+  "model": {
+    "localization": false,
+    "type": "MD",
+    "name": "blog",
+    "path": "content/blog",
+    "modelId": "blog",
+    "createdBy": "community"
+  },
+  "name": "deniz",
+  "categories": [
+    "Informational",
+    "Website",
+    "Magazine"
+  ],
+  "description": "1"
+}
