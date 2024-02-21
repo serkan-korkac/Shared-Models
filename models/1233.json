@@ -1,0 +1,191 @@
+{
+  "fields": [
+    {
+      "componentId": "slug",
+      "fieldId": "slug",
+      "modelId": "blog",
+      "name": "slug",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "md-editor",
+      "fieldId": "content",
+      "modelId": "blog",
+      "name": "content",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "createdAt",
+      "modelId": "blog",
+      "name": "createdAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "date",
+      "fieldId": "updatedAt",
+      "modelId": "blog",
+      "name": "updatedAt",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "date"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "ID",
+      "modelId": "blog",
+      "name": "ID",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "status",
+      "modelId": "blog",
+      "name": "status",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "title",
+      "modelId": "blog",
+      "name": "title",
+      "options": {
+        "title-field": {
+          "value": false
+        },
+        "default-value": {
+          "value": false
+        }
+      },
+      "validations": {
+        "required-field": {
+          "value": true
+        },
+        "unique-field": {
+          "value": false
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "description",
+      "modelId": "blog",
+      "name": "description",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": true
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "media",
+      "fieldId": "imagesrc",
+      "modelId": "blog",
+      "name": "imageSrc",
+      "options": {},
+      "validations": {
+        "required-field": {
+          "value": false
+        }
+      },
+      "fieldType": "string"
+    },
+    {
+      "componentId": "single-line-text",
+      "fieldId": "imagealt",
+      "modelId": "blog",
+      "name": "imageAlt",
+      "options": {},
+      "validations": {},
+      "fieldType": "string"
+    },
+    {
+      "componentId": "one-to-one",
+      "fieldId": "author",
+      "modelId": "blog",
+      "name": "author",
+      "options": {
+        "reference": {
+          "value": true,
+          "form": {
+            "reference": {
+              "value": "authors"
+            }
+          }
+        }
+      },
+      "validations": {},
+      "fieldType": "relation"
+    },
+    {
+      "componentId": "one-to-one",
+      "fieldId": "category",
+      "modelId": "blog",
+      "name": "category",
+      "options": {
+        "reference": {
+          "value": true,
+          "form": {
+            "reference": {
+              "value": "blogcategories"
+            }
+          }
+        }
+      },
+      "validations": {},
+      "fieldType": "relation"
+    }
+  ],
+  "model": {
+    "localization": false,
+    "type": "MD",
+    "name": "blog",
+    "path": "content/blog",
+    "modelId": "blog",
+    "createdBy": "community",
+    "isServerless": false
+  },
+  "name": "1233",
+  "categories": [
+    "Magazine",
+    "Informational"
+  ],
+  "description": "123"
+}
